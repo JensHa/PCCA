@@ -3,6 +3,7 @@ package de.fhrt.pcca.problem;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+@SuppressWarnings("serial")
 public class Node implements Serializable {
 
 	private ArrayList<Node> children;
