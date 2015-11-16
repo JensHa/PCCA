@@ -4,6 +4,7 @@ import java.util.concurrent.RecursiveTask;
 
 import de.fhrt.pcca.sha1.Node;
 
+@SuppressWarnings("serial")
 public class Task extends RecursiveTask<Integer> {
 	Node initNode;
 	private int count = 0;
